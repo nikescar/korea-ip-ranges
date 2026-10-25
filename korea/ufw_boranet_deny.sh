@@ -1,0 +1,84 @@
+#!/bin/bash
+# Korea IP Ranges - boranet
+# Updated: 2026-10-26
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# This file is generated automatically. Do not edit it directly.
+# UFW deny rules for boranet
+
+ufw deny from 1.208.0.0/12
+ufw deny from 49.236.64.0/18
+ufw deny from 58.72.0.0/14
+ufw deny from 58.76.0.0/16
+ufw deny from 58.149.0.0/16
+ufw deny from 58.150.0.0/15
+ufw deny from 59.186.0.0/15
+ufw deny from 60.196.0.0/15
+ufw deny from 61.32.0.0/13
+ufw deny from 61.40.0.0/14
+ufw deny from 61.97.32.0/19
+ufw deny from 61.97.112.0/20
+ufw deny from 103.30.160.0/22
+ufw deny from 103.68.148.0/22
+ufw deny from 106.240.0.0/12
+ufw deny from 112.216.0.0/13
+ufw deny from 115.88.0.0/13
+ufw deny from 118.128.0.0/14
+ufw deny from 121.64.0.0/14
+ufw deny from 123.140.0.0/14
+ufw deny from 124.194.0.0/16
+ufw deny from 125.7.192.0/18
+ufw deny from 164.124.0.0/16
+ufw deny from 182.252.0.0/18
+ufw deny from 203.233.0.0/17
+ufw deny from 203.248.128.0/17
+ufw deny from 203.252.0.0/20
+ufw deny from 203.255.234.0/24
+ufw deny from 210.92.64.0/18
+ufw deny from 210.92.128.0/17
+ufw deny from 210.94.128.0/19
+ufw deny from 210.96.128.0/17
+ufw deny from 210.98.128.0/18
+ufw deny from 210.98.224.0/19
+ufw deny from 210.101.128.0/18
+ufw deny from 210.102.32.0/19
+ufw deny from 210.106.224.0/19
+ufw deny from 210.107.0.0/17
+ufw deny from 210.108.0.0/16
+ufw deny from 210.112.176.0/20
+ufw deny from 210.120.0.0/16
+ufw deny from 210.124.0.0/16
+ufw deny from 210.180.0.0/19
+ufw deny from 210.180.224.0/19
+ufw deny from 210.181.32.0/19
+ufw deny from 210.182.0.0/16
+ufw deny from 210.206.0.0/15
+ufw deny from 210.216.0.0/16
+ufw deny from 210.218.224.0/19
+ufw deny from 210.220.96.0/19
+ufw deny from 210.221.192.0/18
+ufw deny from 211.32.0.0/16
+ufw deny from 211.36.128.0/19
+ufw deny from 211.36.224.0/19
+ufw deny from 211.40.0.0/16
+ufw deny from 211.42.160.0/19
+ufw deny from 211.42.224.0/19
+ufw deny from 211.45.192.0/18
+ufw deny from 211.50.0.0/16
+ufw deny from 211.53.0.0/16
+ufw deny from 211.60.0.0/16
+ufw deny from 211.62.128.0/17
+ufw deny from 211.63.32.0/19
+ufw deny from 211.116.0.0/18
+ufw deny from 211.118.0.0/15
+ufw deny from 211.168.0.0/14
+ufw deny from 211.172.144.0/20
+ufw deny from 211.180.0.0/15
+ufw deny from 211.234.0.0/18
+ufw deny from 211.234.64.0/19
+ufw deny from 211.236.0.0/18
+ufw deny from 211.237.16.0/20
+ufw deny from 211.238.96.0/19
+ufw deny from 211.238.240.0/20
+ufw deny from 211.254.128.0/18
+ufw deny from 2001:270::/32

@@ -1,0 +1,59 @@
+-- SQL script to create table `broadbandidc_ips` and insert IP addresses
+-- Generated: 2026-10-26
+-- Source: Korea Network Information Center (KRNIC)
+
+CREATE TABLE IF NOT EXISTS `broadbandidc_ips` (
+  `ip_address` VARCHAR(45) NOT NULL,
+  `ip_type` VARCHAR(10) NOT NULL,
+  PRIMARY KEY (`ip_address`)
+);
+
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('49.50.16.0/20', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('49.50.144.0/21', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('49.50.152.0/22', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('61.97.162.0/23', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('61.97.164.0/22', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('61.97.168.0/23', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('61.97.172.0/23', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('101.101.128.0/21', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('101.101.144.0/20', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('101.101.192.0/20', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('101.101.228.0/22', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('101.101.232.0/21', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('101.101.242.0/23', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('101.101.244.0/23', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('101.101.248.0/21', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('103.2.92.0/22', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('103.11.56.0/23', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('103.122.184.0/22', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('110.93.112.0/21', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('110.93.124.0/22', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('121.101.192.0/20', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('175.106.112.0/20', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('211.111.161.0/24', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('211.111.162.0/23', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('211.111.164.0/24', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('211.111.166.0/23', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('211.111.168.0/22', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('211.111.174.0/23', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('211.174.32.0/20', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('211.238.32.0/23', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('211.238.35.0/24', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('211.238.36.0/23', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('211.238.41.0/24', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('211.238.43.0/24', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('211.238.44.0/23', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('211.238.46.0/24', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('211.238.48.0/20', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('211.238.178.0/24', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('211.238.180.0/22', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('211.238.184.0/21', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('211.238.193.0/24', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('211.238.194.0/23', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('211.238.196.0/24', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('211.238.198.0/24', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('211.238.200.0/21', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('223.130.208.0/20', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('223.130.234.0/23', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('223.130.236.0/23', 'IPv4');
+INSERT INTO `broadbandidc_ips` (`ip_address`, `ip_type`) VALUES ('2405:8dc0::/32', 'IPv6');

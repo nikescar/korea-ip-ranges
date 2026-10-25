@@ -1,0 +1,88 @@
+# boranet IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4:       75 merged subnets
+# IPv6:        1 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < boranet.netset
+#
+create boranet_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush boranet_v4
+add boranet_v4 1.208.0.0/12
+add boranet_v4 49.236.64.0/18
+add boranet_v4 58.72.0.0/14
+add boranet_v4 58.76.0.0/16
+add boranet_v4 58.149.0.0/16
+add boranet_v4 58.150.0.0/15
+add boranet_v4 59.186.0.0/15
+add boranet_v4 60.196.0.0/15
+add boranet_v4 61.32.0.0/13
+add boranet_v4 61.40.0.0/14
+add boranet_v4 61.97.32.0/19
+add boranet_v4 61.97.112.0/20
+add boranet_v4 103.30.160.0/22
+add boranet_v4 103.68.148.0/22
+add boranet_v4 106.240.0.0/12
+add boranet_v4 112.216.0.0/13
+add boranet_v4 115.88.0.0/13
+add boranet_v4 118.128.0.0/14
+add boranet_v4 121.64.0.0/14
+add boranet_v4 123.140.0.0/14
+add boranet_v4 124.194.0.0/16
+add boranet_v4 125.7.192.0/18
+add boranet_v4 164.124.0.0/16
+add boranet_v4 182.252.0.0/18
+add boranet_v4 203.233.0.0/17
+add boranet_v4 203.248.128.0/17
+add boranet_v4 203.252.0.0/20
+add boranet_v4 203.255.234.0/24
+add boranet_v4 210.92.64.0/18
+add boranet_v4 210.92.128.0/17
+add boranet_v4 210.94.128.0/19
+add boranet_v4 210.96.128.0/17
+add boranet_v4 210.98.128.0/18
+add boranet_v4 210.98.224.0/19
+add boranet_v4 210.101.128.0/18
+add boranet_v4 210.102.32.0/19
+add boranet_v4 210.106.224.0/19
+add boranet_v4 210.107.0.0/17
+add boranet_v4 210.108.0.0/16
+add boranet_v4 210.112.176.0/20
+add boranet_v4 210.120.0.0/16
+add boranet_v4 210.124.0.0/16
+add boranet_v4 210.180.0.0/19
+add boranet_v4 210.180.224.0/19
+add boranet_v4 210.181.32.0/19
+add boranet_v4 210.182.0.0/16
+add boranet_v4 210.206.0.0/15
+add boranet_v4 210.216.0.0/16
+add boranet_v4 210.218.224.0/19
+add boranet_v4 210.220.96.0/19
+add boranet_v4 210.221.192.0/18
+add boranet_v4 211.32.0.0/16
+add boranet_v4 211.36.128.0/19
+add boranet_v4 211.36.224.0/19
+add boranet_v4 211.40.0.0/16
+add boranet_v4 211.42.160.0/19
+add boranet_v4 211.42.224.0/19
+add boranet_v4 211.45.192.0/18
+add boranet_v4 211.50.0.0/16
+add boranet_v4 211.53.0.0/16
+add boranet_v4 211.60.0.0/16
+add boranet_v4 211.62.128.0/17
+add boranet_v4 211.63.32.0/19
+add boranet_v4 211.116.0.0/18
+add boranet_v4 211.118.0.0/15
+add boranet_v4 211.168.0.0/14
+add boranet_v4 211.172.144.0/20
+add boranet_v4 211.180.0.0/15
+add boranet_v4 211.234.0.0/18
+add boranet_v4 211.234.64.0/19
+add boranet_v4 211.236.0.0/18
+add boranet_v4 211.237.16.0/20
+add boranet_v4 211.238.96.0/19
+add boranet_v4 211.238.240.0/20
+add boranet_v4 211.254.128.0/18
+create boranet_v6 hash:net family inet6 hashsize 4096 maxelem 1048576 -exist
+flush boranet_v6
+add boranet_v6 2001:270::/32
