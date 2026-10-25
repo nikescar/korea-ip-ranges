@@ -1,5 +1,5 @@
 -- SQL script to create table `korea_ips` and insert IP addresses
--- Generated: 2026-10-26
+-- Generated: 2026-10-25
 -- Source: Korea Network Information Center (KRNIC)
 
 CREATE TABLE IF NOT EXISTS `korea_ips` (

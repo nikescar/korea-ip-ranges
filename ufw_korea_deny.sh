@@ -1,8 +1,9 @@
 #!/bin/bash
-# Korea IP Ranges
-# Updated: 2026-10-26
+# Korea IP Ranges - korea
+# Updated: 2026-10-25
 # Source: Korea Network Information Center (KRNIC)
 # License: CC0-1.0
+# This file is generated automatically. Do not edit it directly.
 # UFW deny rules for korea
 
 ufw deny from 1.11.0.0/16
