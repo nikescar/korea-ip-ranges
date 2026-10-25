@@ -17,5 +17,6 @@
   "total_entries": 4,
   "content_sha256": "fef0a231c9ef7a58f0ee5ebfbd1cd92d43b833be1908dc54ea670e2140abe2ea",
   "license": "CC0-1.0",
-  "license_url": "https://github.com/nikescar/korea-ip-ranges/blob/main/LICENSE"
+  "license_url": "https://github.com/nikescar/korea-ip-ranges/blob/main/LICENSE",
+  "inspiration": "https://github.com/rezmoss/cloud-provider-ip-addresses"
 }
