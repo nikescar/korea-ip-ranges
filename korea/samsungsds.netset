@@ -1,0 +1,49 @@
+# samsungsds IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 35 merged subnets
+# IPv6: 2 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < samsungsds.netset
+#
+create samsungsds_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush samsungsds_v4
+add samsungsds_v4 42.8.0.0/13
+add samsungsds_v4 112.106.0.0/15
+add samsungsds_v4 112.108.0.0/16
+add samsungsds_v4 121.252.0.0/15
+add samsungsds_v4 122.101.0.0/16
+add samsungsds_v4 123.32.0.0/12
+add samsungsds_v4 157.197.0.0/16
+add samsungsds_v4 165.213.0.0/16
+add samsungsds_v4 166.79.0.0/16
+add samsungsds_v4 166.103.0.0/16
+add samsungsds_v4 168.219.0.0/16
+add samsungsds_v4 180.236.0.0/14
+add samsungsds_v4 182.192.0.0/13
+add samsungsds_v4 202.20.128.0/17
+add samsungsds_v4 202.31.216.0/22
+add samsungsds_v4 203.241.48.0/22
+add samsungsds_v4 203.241.132.0/22
+add samsungsds_v4 203.241.136.0/21
+add samsungsds_v4 203.241.144.0/20
+add samsungsds_v4 203.241.160.0/22
+add samsungsds_v4 203.242.96.0/20
+add samsungsds_v4 203.244.96.0/19
+add samsungsds_v4 203.244.192.0/19
+add samsungsds_v4 203.244.240.0/20
+add samsungsds_v4 203.246.192.0/18
+add samsungsds_v4 203.249.192.0/19
+add samsungsds_v4 203.254.174.0/24
+add samsungsds_v4 203.254.192.0/18
+add samsungsds_v4 203.255.124.0/22
+add samsungsds_v4 210.94.32.0/19
+add samsungsds_v4 210.118.32.0/19
+add samsungsds_v4 210.118.64.0/18
+add samsungsds_v4 211.36.64.0/19
+add samsungsds_v4 211.45.0.0/19
+add samsungsds_v4 211.189.0.0/17
+create samsungsds_v6 hash:net family inet6 hashsize 4096 maxelem 1048576 -exist
+flush samsungsds_v6
+add samsungsds_v6 2001:330::/32
+add samsungsds_v6 2404:180::/28

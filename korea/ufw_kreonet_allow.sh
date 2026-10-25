@@ -1,0 +1,67 @@
+#!/bin/bash
+# Korea IP Ranges - kreonet
+# Updated: 2026-10-26
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# UFW allow rules for kreonet
+
+ufw allow from 134.75.0.0/16
+ufw allow from 150.183.0.0/16
+ufw allow from 192.100.2.0/24
+ufw allow from 202.30.0.0/19
+ufw allow from 202.30.32.0/23
+ufw allow from 202.30.34.0/24
+ufw allow from 202.30.36.0/23
+ufw allow from 202.30.40.0/22
+ufw allow from 202.30.46.0/23
+ufw allow from 202.30.54.0/24
+ufw allow from 202.30.60.0/22
+ufw allow from 202.30.112.0/21
+ufw allow from 203.230.0.0/18
+ufw allow from 203.230.64.0/20
+ufw allow from 203.230.96.0/20
+ufw allow from 203.230.116.0/22
+ufw allow from 203.230.120.0/21
+ufw allow from 203.233.154.0/23
+ufw allow from 203.233.156.0/24
+ufw allow from 203.237.0.0/18
+ufw allow from 203.237.64.0/19
+ufw allow from 203.241.32.0/20
+ufw allow from 203.241.116.0/22
+ufw allow from 203.241.120.0/22
+ufw allow from 203.241.164.0/23
+ufw allow from 203.241.168.0/22
+ufw allow from 203.241.172.0/23
+ufw allow from 203.241.174.0/24
+ufw allow from 203.241.220.0/22
+ufw allow from 203.247.32.0/19
+ufw allow from 203.247.64.0/18
+ufw allow from 203.247.160.0/19
+ufw allow from 203.247.192.0/19
+ufw allow from 203.250.0.0/19
+ufw allow from 203.250.96.0/19
+ufw allow from 203.250.128.0/17
+ufw allow from 203.253.96.0/20
+ufw allow from 203.253.132.0/22
+ufw allow from 203.253.136.0/21
+ufw allow from 203.253.224.0/21
+ufw allow from 203.253.234.0/23
+ufw allow from 203.253.236.0/24
+ufw allow from 203.253.238.0/23
+ufw allow from 203.254.40.0/24
+ufw allow from 203.254.168.0/23
+ufw allow from 203.254.170.0/24
+ufw allow from 203.254.175.0/24
+ufw allow from 203.254.176.0/20
+ufw allow from 210.98.0.0/18
+ufw allow from 210.107.128.0/17
+ufw allow from 210.110.128.0/17
+ufw allow from 210.114.104.0/21
+ufw allow from 210.117.192.0/18
+ufw allow from 210.119.0.0/17
+ufw allow from 210.125.0.0/20
+ufw allow from 210.125.32.0/19
+ufw allow from 210.125.64.0/18
+ufw allow from 210.218.192.0/19
+ufw allow from 210.219.32.0/19
+ufw allow from 2001:320::/32

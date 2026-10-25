@@ -1,0 +1,16 @@
+# ldcc-safeguard IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 6 merged subnets
+# IPv6: 0 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < ldcc-safeguard.netset
+#
+create ldcc-safeguard_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush ldcc-safeguard_v4
+add ldcc-safeguard_v4 103.235.24.0/22
+add ldcc-safeguard_v4 124.243.0.0/17
+add ldcc-safeguard_v4 125.60.64.0/19
+add ldcc-safeguard_v4 150.129.224.0/22
+add ldcc-safeguard_v4 210.93.128.0/18
+add ldcc-safeguard_v4 223.253.0.0/16

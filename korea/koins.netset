@@ -1,0 +1,13 @@
+# koins IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 3 merged subnets
+# IPv6: 0 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < koins.netset
+#
+create koins_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush koins_v4
+add koins_v4 103.244.108.0/22
+add koins_v4 114.31.112.0/20
+add koins_v4 211.255.192.0/20

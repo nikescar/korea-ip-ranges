@@ -1,0 +1,24 @@
+# nibdigital IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 11 merged subnets
+# IPv6: 1 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < nibdigital.netset
+#
+create nibdigital_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush nibdigital_v4
+add nibdigital_v4 103.11.44.0/22
+add nibdigital_v4 115.126.192.0/18
+add nibdigital_v4 118.103.192.0/19
+add nibdigital_v4 150.107.80.0/22
+add nibdigital_v4 183.91.192.0/18
+add nibdigital_v4 203.128.160.0/19
+add nibdigital_v4 203.212.96.0/19
+add nibdigital_v4 210.111.160.0/19
+add nibdigital_v4 211.112.64.0/19
+add nibdigital_v4 211.235.32.0/19
+add nibdigital_v4 211.238.64.0/19
+create nibdigital_v6 hash:net family inet6 hashsize 4096 maxelem 1048576 -exist
+flush nibdigital_v6
+add nibdigital_v6 2407:b800::/32

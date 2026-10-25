@@ -1,0 +1,29 @@
+# jndinfo IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 16 merged subnets
+# IPv6: 1 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < jndinfo.netset
+#
+create jndinfo_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush jndinfo_v4
+add jndinfo_v4 27.96.136.0/21
+add jndinfo_v4 43.230.76.0/22
+add jndinfo_v4 49.50.156.0/22
+add jndinfo_v4 61.97.170.0/23
+add jndinfo_v4 61.97.174.0/23
+add jndinfo_v4 101.101.136.0/22
+add jndinfo_v4 101.101.140.0/23
+add jndinfo_v4 101.101.224.0/22
+add jndinfo_v4 101.101.240.0/23
+add jndinfo_v4 101.101.246.0/23
+add jndinfo_v4 110.93.120.0/22
+add jndinfo_v4 115.85.160.0/22
+add jndinfo_v4 115.85.168.0/21
+add jndinfo_v4 223.130.224.0/21
+add jndinfo_v4 223.130.232.0/23
+add jndinfo_v4 223.130.238.0/23
+create jndinfo_v6 hash:net family inet6 hashsize 4096 maxelem 1048576 -exist
+flush jndinfo_v6
+add jndinfo_v6 2402:6100::/32

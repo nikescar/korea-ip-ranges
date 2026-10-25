@@ -1,0 +1,12 @@
+# dreammark1 IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 2 merged subnets
+# IPv6: 0 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < dreammark1.netset
+#
+create dreammark1_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush dreammark1_v4
+add dreammark1_v4 101.202.0.0/16
+add dreammark1_v4 103.139.118.0/23

@@ -1,0 +1,24 @@
+# cmbi-netdj IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 11 merged subnets
+# IPv6: 1 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < cmbi-netdj.netset
+#
+create cmbi-netdj_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush cmbi-netdj_v4
+add cmbi-netdj_v4 45.64.144.0/22
+add cmbi-netdj_v4 49.143.128.0/19
+add cmbi-netdj_v4 49.143.160.0/20
+add cmbi-netdj_v4 49.143.176.0/22
+add cmbi-netdj_v4 49.143.188.0/22
+add cmbi-netdj_v4 61.251.0.0/20
+add cmbi-netdj_v4 103.234.4.0/22
+add cmbi-netdj_v4 110.35.0.0/18
+add cmbi-netdj_v4 124.195.160.0/19
+add cmbi-netdj_v4 211.237.80.0/20
+add cmbi-netdj_v4 211.238.160.0/20
+create cmbi-netdj_v6 hash:net family inet6 hashsize 4096 maxelem 1048576 -exist
+flush cmbi-netdj_v6
+add cmbi-netdj_v6 2403:6500::/32

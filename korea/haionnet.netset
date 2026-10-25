@@ -1,0 +1,25 @@
+# haionnet IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 12 merged subnets
+# IPv6: 1 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < haionnet.netset
+#
+create haionnet_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush haionnet_v4
+add haionnet_v4 43.228.160.0/22
+add haionnet_v4 49.254.0.0/16
+add haionnet_v4 103.4.180.0/22
+add haionnet_v4 115.144.0.0/16
+add haionnet_v4 121.126.0.0/16
+add haionnet_v4 124.198.0.0/17
+add haionnet_v4 125.7.128.0/18
+add haionnet_v4 183.78.128.0/19
+add haionnet_v4 202.86.8.0/21
+add haionnet_v4 202.126.112.0/21
+add haionnet_v4 202.133.16.0/20
+add haionnet_v4 203.109.0.0/19
+create haionnet_v6 hash:net family inet6 hashsize 4096 maxelem 1048576 -exist
+flush haionnet_v6
+add haionnet_v6 2404:800::/32

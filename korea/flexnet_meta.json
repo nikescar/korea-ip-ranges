@@ -1,0 +1,21 @@
+{
+  "provider": "flexnet",
+  "country": "KR",
+  "generated_date": "2026-10-26",
+  "sources": [
+    "https://xn--3e0bx5euxnjje69i70af08bea817g.xn--3e0b707e/jsp/business/management/isCurrentIpv4.jsp",
+    "https://xn--3e0bx5euxnjje69i70af08bea817g.xn--3e0b707e/jsp/business/management/isCurrentIpv6.jsp"
+  ],
+  "ipv4": {
+    "cidrs": 6,
+    "merged_cidrs": 6
+  },
+  "ipv6": {
+    "cidrs": 0,
+    "merged_cidrs": 0
+  },
+  "total_entries": 6,
+  "content_sha256": "f25ba3e97e0186b3bf05878d5810c1c97f052d4c4e05287078effda64939851b",
+  "license": "CC0-1.0",
+  "license_url": "https://github.com/nikescar/korea-ip-ranges/blob/main/LICENSE"
+}

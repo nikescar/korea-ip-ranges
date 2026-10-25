@@ -1,0 +1,26 @@
+# sk-net IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 13 merged subnets
+# IPv6: 1 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < sk-net.netset
+#
+create sk-net_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush sk-net_v4
+add sk-net_v4 49.50.32.0/19
+add sk-net_v4 61.97.0.0/20
+add sk-net_v4 124.66.176.0/20
+add sk-net_v4 168.154.0.0/16
+add sk-net_v4 182.50.32.0/19
+add sk-net_v4 203.235.192.0/21
+add sk-net_v4 203.235.202.0/23
+add sk-net_v4 203.235.208.0/20
+add sk-net_v4 203.235.224.0/19
+add sk-net_v4 203.242.64.0/19
+add sk-net_v4 203.242.120.0/21
+add sk-net_v4 210.211.64.0/19
+add sk-net_v4 211.45.32.0/19
+create sk-net_v6 hash:net family inet6 hashsize 4096 maxelem 1048576 -exist
+flush sk-net_v6
+add sk-net_v6 2405:8600::/32

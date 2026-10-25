@@ -1,0 +1,14 @@
+# cmbmutinet IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 4 merged subnets
+# IPv6: 0 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < cmbmutinet.netset
+#
+create cmbmutinet_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush cmbmutinet_v4
+add cmbmutinet_v4 27.126.0.0/18
+add cmbmutinet_v4 103.237.20.0/22
+add cmbmutinet_v4 122.252.192.0/19
+add cmbmutinet_v4 163.53.156.0/22

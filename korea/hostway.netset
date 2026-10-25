@@ -1,0 +1,15 @@
+# hostway IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 2 merged subnets
+# IPv6: 1 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < hostway.netset
+#
+create hostway_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush hostway_v4
+add hostway_v4 103.24.8.0/22
+add hostway_v4 150.107.68.0/22
+create hostway_v6 hash:net family inet6 hashsize 4096 maxelem 1048576 -exist
+flush hostway_v6
+add hostway_v6 2406:ad00::/32

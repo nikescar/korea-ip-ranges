@@ -1,0 +1,14 @@
+# imobiinc IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 4 merged subnets
+# IPv6: 0 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < imobiinc.netset
+#
+create imobiinc_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush imobiinc_v4
+add imobiinc_v4 119.30.128.0/18
+add imobiinc_v4 157.119.36.0/22
+add imobiinc_v4 160.30.232.0/23
+add imobiinc_v4 202.68.224.0/19

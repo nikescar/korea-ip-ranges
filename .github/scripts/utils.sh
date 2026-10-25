@@ -4,10 +4,10 @@
 set -euo pipefail
 
 # Normalize ISP name to safe filename
-# Example: "ABCLE" -> "abcle", "(주)엘지유플러스" -> "boranet"
+# Matches Python normalization in merge.sh: keep hyphens, remove parens, spaces -> underscores
 normalize_isp_name() {
     local isp_english="$1"
-    echo "$isp_english" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/_/g' | sed 's/__*/_/g' | sed 's/^_//;s/_$//'
+    echo "$isp_english" | tr '[:upper:]' '[:lower:]' | sed 's/(//g; s/)//g; s/ /_/g'
 }
 
 # Log with timestamp

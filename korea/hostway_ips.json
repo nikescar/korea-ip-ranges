@@ -1,0 +1,14 @@
+[
+  {
+    "ip_address": "103.24.8.0/22",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "150.107.68.0/22",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "2406:ad00::/32",
+    "ip_type": "IPv6"
+  }
+]

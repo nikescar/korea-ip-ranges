@@ -1,0 +1,15 @@
+# cmbsusung IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 5 merged subnets
+# IPv6: 0 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < cmbsusung.netset
+#
+create cmbsusung_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush cmbsusung_v4
+add cmbsusung_v4 43.241.104.0/22
+add cmbsusung_v4 49.143.187.0/24
+add cmbsusung_v4 58.147.176.0/21
+add cmbsusung_v4 103.28.64.0/22
+add cmbsusung_v4 122.129.208.0/21

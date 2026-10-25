@@ -1,0 +1,19 @@
+# gcs IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 6 merged subnets
+# IPv6: 1 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < gcs.netset
+#
+create gcs_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush gcs_v4
+add gcs_v4 27.113.0.0/17
+add gcs_v4 114.199.0.0/18
+add gcs_v4 119.17.0.0/19
+add gcs_v4 121.55.64.0/18
+add gcs_v4 121.55.128.0/18
+add gcs_v4 125.208.192.0/18
+create gcs_v6 hash:net family inet6 hashsize 4096 maxelem 1048576 -exist
+flush gcs_v6
+add gcs_v6 2407:2000::/32

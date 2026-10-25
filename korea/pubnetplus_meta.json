@@ -1,0 +1,21 @@
+{
+  "provider": "pubnetplus",
+  "country": "KR",
+  "generated_date": "2026-10-26",
+  "sources": [
+    "https://xn--3e0bx5euxnjje69i70af08bea817g.xn--3e0b707e/jsp/business/management/isCurrentIpv4.jsp",
+    "https://xn--3e0bx5euxnjje69i70af08bea817g.xn--3e0b707e/jsp/business/management/isCurrentIpv6.jsp"
+  ],
+  "ipv4": {
+    "cidrs": 22,
+    "merged_cidrs": 20
+  },
+  "ipv6": {
+    "cidrs": 1,
+    "merged_cidrs": 1
+  },
+  "total_entries": 23,
+  "content_sha256": "a3789c09d9c7f93634b660300dbffb6035e4dc8de6aeda8a9cd3f27a4956f52c",
+  "license": "CC0-1.0",
+  "license_url": "https://github.com/nikescar/korea-ip-ranges/blob/main/LICENSE"
+}

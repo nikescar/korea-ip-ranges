@@ -1,0 +1,22 @@
+# ditizone IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 12 merged subnets
+# IPv6: 0 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < ditizone.netset
+#
+create ditizone_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush ditizone_v4
+add ditizone_v4 27.116.128.0/17
+add ditizone_v4 49.238.64.0/18
+add ditizone_v4 61.97.224.0/20
+add ditizone_v4 113.199.0.0/17
+add ditizone_v4 122.128.32.0/19
+add ditizone_v4 125.252.0.0/18
+add ditizone_v4 203.81.128.0/19
+add ditizone_v4 203.128.192.0/19
+add ditizone_v4 203.142.160.0/19
+add ditizone_v4 210.97.160.0/19
+add ditizone_v4 211.111.224.0/19
+add ditizone_v4 211.112.96.0/19

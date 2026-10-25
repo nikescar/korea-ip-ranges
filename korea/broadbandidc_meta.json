@@ -7,15 +7,15 @@
     "https://xn--3e0bx5euxnjje69i70af08bea817g.xn--3e0b707e/jsp/business/management/isCurrentIpv6.jsp"
   ],
   "ipv4": {
-    "cidrs":      124,
-    "merged_cidrs":       48
+    "cidrs": 124,
+    "merged_cidrs": 48
   },
   "ipv6": {
-    "cidrs":        1,
-    "merged_cidrs":        1
+    "cidrs": 1,
+    "merged_cidrs": 1
   },
   "total_entries": 125,
-  "content_sha256": "3758765123",
+  "content_sha256": "bf5049be3c4893bd1bdba99f2987008331438b556b607d641f124c60054252e9",
   "license": "CC0-1.0",
   "license_url": "https://github.com/nikescar/korea-ip-ranges/blob/main/LICENSE"
 }

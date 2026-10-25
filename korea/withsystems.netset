@@ -1,0 +1,12 @@
+# withsystems IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 2 merged subnets
+# IPv6: 0 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < withsystems.netset
+#
+create withsystems_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush withsystems_v4
+add withsystems_v4 45.117.12.0/22
+add withsystems_v4 103.57.60.0/22

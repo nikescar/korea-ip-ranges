@@ -1,0 +1,23 @@
+# kpin IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 13 merged subnets
+# IPv6: 0 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < kpin.netset
+#
+create kpin_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush kpin_v4
+add kpin_v4 43.242.112.0/22
+add kpin_v4 103.38.24.0/22
+add kpin_v4 119.42.160.0/19
+add kpin_v4 202.136.112.0/20
+add kpin_v4 202.167.208.0/22
+add kpin_v4 202.167.212.0/23
+add kpin_v4 202.167.214.0/24
+add kpin_v4 202.167.216.0/21
+add kpin_v4 211.35.64.0/20
+add kpin_v4 221.133.48.0/22
+add kpin_v4 221.133.52.0/23
+add kpin_v4 221.133.54.0/24
+add kpin_v4 221.133.56.0/21

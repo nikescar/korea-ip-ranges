@@ -1,0 +1,32 @@
+# kinxinc IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 18 merged subnets
+# IPv6: 2 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < kinxinc.netset
+#
+create kinxinc_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush kinxinc_v4
+add kinxinc_v4 1.201.0.0/16
+add kinxinc_v4 61.106.224.0/20
+add kinxinc_v4 61.251.16.0/20
+add kinxinc_v4 103.6.100.0/22
+add kinxinc_v4 121.50.64.0/18
+add kinxinc_v4 121.78.0.0/16
+add kinxinc_v4 122.49.64.0/19
+add kinxinc_v4 122.49.96.0/20
+add kinxinc_v4 139.150.0.0/18
+add kinxinc_v4 139.150.96.0/19
+add kinxinc_v4 139.150.128.0/17
+add kinxinc_v4 182.161.96.0/19
+add kinxinc_v4 202.31.155.0/24
+add kinxinc_v4 203.84.240.0/20
+add kinxinc_v4 203.236.192.0/18
+add kinxinc_v4 203.238.176.0/20
+add kinxinc_v4 203.246.160.0/20
+add kinxinc_v4 210.97.240.0/20
+create kinxinc_v6 hash:net family inet6 hashsize 4096 maxelem 1048576 -exist
+flush kinxinc_v6
+add kinxinc_v6 2001:7fa:8::/48
+add kinxinc_v6 2401:2700::/32

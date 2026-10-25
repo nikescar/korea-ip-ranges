@@ -1,0 +1,21 @@
+# piranha IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 8 merged subnets
+# IPv6: 1 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < piranha.netset
+#
+create piranha_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush piranha_v4
+add piranha_v4 14.206.0.0/16
+add piranha_v4 101.250.0.0/16
+add piranha_v4 103.246.236.0/22
+add piranha_v4 110.165.64.0/18
+add piranha_v4 112.213.0.0/19
+add piranha_v4 114.141.224.0/19
+add piranha_v4 122.49.112.0/20
+add piranha_v4 182.163.128.0/17
+create piranha_v6 hash:net family inet6 hashsize 4096 maxelem 1048576 -exist
+flush piranha_v6
+add piranha_v6 2402:f400::/32

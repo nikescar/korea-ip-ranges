@@ -1,0 +1,27 @@
+-- SQL script to create table `jndinfo_ips` and insert IP addresses
+-- Generated: 2026-10-26
+-- Source: Korea Network Information Center (KRNIC)
+
+CREATE TABLE IF NOT EXISTS `jndinfo_ips` (
+  `ip_address` VARCHAR(45) NOT NULL,
+  `ip_type` VARCHAR(10) NOT NULL,
+  PRIMARY KEY (`ip_address`)
+);
+
+INSERT INTO `jndinfo_ips` (`ip_address`, `ip_type`) VALUES ('27.96.136.0/21', 'IPv4');
+INSERT INTO `jndinfo_ips` (`ip_address`, `ip_type`) VALUES ('43.230.76.0/22', 'IPv4');
+INSERT INTO `jndinfo_ips` (`ip_address`, `ip_type`) VALUES ('49.50.156.0/22', 'IPv4');
+INSERT INTO `jndinfo_ips` (`ip_address`, `ip_type`) VALUES ('61.97.170.0/23', 'IPv4');
+INSERT INTO `jndinfo_ips` (`ip_address`, `ip_type`) VALUES ('61.97.174.0/23', 'IPv4');
+INSERT INTO `jndinfo_ips` (`ip_address`, `ip_type`) VALUES ('101.101.136.0/22', 'IPv4');
+INSERT INTO `jndinfo_ips` (`ip_address`, `ip_type`) VALUES ('101.101.140.0/23', 'IPv4');
+INSERT INTO `jndinfo_ips` (`ip_address`, `ip_type`) VALUES ('101.101.224.0/22', 'IPv4');
+INSERT INTO `jndinfo_ips` (`ip_address`, `ip_type`) VALUES ('101.101.240.0/23', 'IPv4');
+INSERT INTO `jndinfo_ips` (`ip_address`, `ip_type`) VALUES ('101.101.246.0/23', 'IPv4');
+INSERT INTO `jndinfo_ips` (`ip_address`, `ip_type`) VALUES ('110.93.120.0/22', 'IPv4');
+INSERT INTO `jndinfo_ips` (`ip_address`, `ip_type`) VALUES ('115.85.160.0/22', 'IPv4');
+INSERT INTO `jndinfo_ips` (`ip_address`, `ip_type`) VALUES ('115.85.168.0/21', 'IPv4');
+INSERT INTO `jndinfo_ips` (`ip_address`, `ip_type`) VALUES ('223.130.224.0/21', 'IPv4');
+INSERT INTO `jndinfo_ips` (`ip_address`, `ip_type`) VALUES ('223.130.232.0/23', 'IPv4');
+INSERT INTO `jndinfo_ips` (`ip_address`, `ip_type`) VALUES ('223.130.238.0/23', 'IPv4');
+INSERT INTO `jndinfo_ips` (`ip_address`, `ip_type`) VALUES ('2402:6100::/32', 'IPv6');

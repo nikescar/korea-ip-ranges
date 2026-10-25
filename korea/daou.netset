@@ -1,0 +1,26 @@
+# daou IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 13 merged subnets
+# IPv6: 1 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < daou.netset
+#
+create daou_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush daou_v4
+add daou_v4 1.16.0.0/18
+add daou_v4 27.102.0.0/16
+add daou_v4 103.13.160.0/22
+add daou_v4 110.172.100.0/22
+add daou_v4 110.172.104.0/21
+add daou_v4 110.172.112.0/20
+add daou_v4 113.29.128.0/18
+add daou_v4 113.29.192.0/20
+add daou_v4 115.71.0.0/16
+add daou_v4 203.133.160.0/19
+add daou_v4 203.217.204.0/22
+add daou_v4 203.217.208.0/20
+add daou_v4 203.217.224.0/19
+create daou_v6 hash:net family inet6 hashsize 4096 maxelem 1048576 -exist
+flush daou_v6
+add daou_v6 2403:3e00::/32

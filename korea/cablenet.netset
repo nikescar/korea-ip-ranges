@@ -1,0 +1,15 @@
+# cablenet IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 5 merged subnets
+# IPv6: 0 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < cablenet.netset
+#
+create cablenet_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush cablenet_v4
+add cablenet_v4 27.100.128.0/17
+add cablenet_v4 103.214.88.0/22
+add cablenet_v4 112.133.0.0/17
+add cablenet_v4 122.202.128.0/17
+add cablenet_v4 144.48.92.0/22

@@ -1,0 +1,18 @@
+[
+  {
+    "ip_address": "45.64.140.0/22",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "103.8.100.0/22",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "202.167.215.0/24",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "221.133.55.0/24",
+    "ip_type": "IPv4"
+  }
+]

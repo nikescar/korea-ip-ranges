@@ -1,0 +1,18 @@
+[
+  {
+    "ip_address": "119.30.128.0/18",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "157.119.36.0/22",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "160.30.232.0/23",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "202.68.224.0/19",
+    "ip_type": "IPv4"
+  }
+]

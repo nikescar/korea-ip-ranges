@@ -1,0 +1,22 @@
+# hyosungcdn IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 9 merged subnets
+# IPv6: 1 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < hyosungcdn.netset
+#
+create hyosungcdn_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush hyosungcdn_v4
+add hyosungcdn_v4 49.236.128.0/22
+add hyosungcdn_v4 49.236.168.0/21
+add hyosungcdn_v4 49.236.176.0/20
+add hyosungcdn_v4 103.79.132.0/22
+add hyosungcdn_v4 110.93.128.0/20
+add hyosungcdn_v4 110.93.160.0/19
+add hyosungcdn_v4 114.31.32.0/19
+add hyosungcdn_v4 114.141.24.0/21
+add hyosungcdn_v4 182.173.176.0/22
+create hyosungcdn_v6 hash:net family inet6 hashsize 4096 maxelem 1048576 -exist
+flush hyosungcdn_v6
+add hyosungcdn_v6 2407:3500::/32

@@ -1,0 +1,12 @@
+# sinc IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 2 merged subnets
+# IPv6: 0 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < sinc.netset
+#
+create sinc_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush sinc_v4
+add sinc_v4 202.3.16.0/20
+add sinc_v4 202.8.160.0/19

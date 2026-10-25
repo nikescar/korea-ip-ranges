@@ -1,0 +1,21 @@
+{
+  "provider": "scsnet",
+  "country": "KR",
+  "generated_date": "2026-10-26",
+  "sources": [
+    "https://xn--3e0bx5euxnjje69i70af08bea817g.xn--3e0b707e/jsp/business/management/isCurrentIpv4.jsp",
+    "https://xn--3e0bx5euxnjje69i70af08bea817g.xn--3e0b707e/jsp/business/management/isCurrentIpv6.jsp"
+  ],
+  "ipv4": {
+    "cidrs": 7,
+    "merged_cidrs": 7
+  },
+  "ipv6": {
+    "cidrs": 0,
+    "merged_cidrs": 0
+  },
+  "total_entries": 7,
+  "content_sha256": "eb56a8a49347f7e14686e8e7d7baff07023ebf4f90c63f4fe42a50ff55193292",
+  "license": "CC0-1.0",
+  "license_url": "https://github.com/nikescar/korea-ip-ranges/blob/main/LICENSE"
+}

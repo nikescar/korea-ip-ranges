@@ -1,0 +1,22 @@
+[
+  {
+    "ip_address": "106.96.0.0/13",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "180.210.192.0/21",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "203.82.240.0/21",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "223.168.0.0/13",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "2001:4430::/32",
+    "ip_type": "IPv6"
+  }
+]

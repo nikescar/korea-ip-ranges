@@ -1,0 +1,21 @@
+{
+  "provider": "cmbkwangjunet",
+  "country": "KR",
+  "generated_date": "2026-10-26",
+  "sources": [
+    "https://xn--3e0bx5euxnjje69i70af08bea817g.xn--3e0b707e/jsp/business/management/isCurrentIpv4.jsp",
+    "https://xn--3e0bx5euxnjje69i70af08bea817g.xn--3e0b707e/jsp/business/management/isCurrentIpv6.jsp"
+  ],
+  "ipv4": {
+    "cidrs": 9,
+    "merged_cidrs": 8
+  },
+  "ipv6": {
+    "cidrs": 2,
+    "merged_cidrs": 2
+  },
+  "total_entries": 11,
+  "content_sha256": "f9f7df96e48a2f066cb7692102a74fe3a773f0d78fa4cba7d7e4ed67dcae44d4",
+  "license": "CC0-1.0",
+  "license_url": "https://github.com/nikescar/korea-ip-ranges/blob/main/LICENSE"
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "ip_address": "45.249.64.0/22",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "49.143.192.0/20",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "103.4.176.0/22",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "118.67.160.0/19",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "175.45.224.0/20",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "211.39.192.0/19",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "211.56.8.0/21",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "211.174.96.0/19",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "211.188.0.0/20",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "211.188.104.0/21",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "211.188.112.0/20",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "211.233.128.0/20",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "211.255.128.0/21",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "211.255.144.0/20",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "223.255.192.0/21",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "2405:5f00::/32",
+    "ip_type": "IPv6"
+  }
+]

@@ -1,0 +1,19 @@
+# gabia-ip IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 6 merged subnets
+# IPv6: 1 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < gabia-ip.netset
+#
+create gabia-ip_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush gabia-ip_v4
+add gabia-ip_v4 45.115.152.0/22
+add gabia-ip_v4 45.120.68.0/22
+add gabia-ip_v4 103.55.188.0/22
+add gabia-ip_v4 103.60.124.0/22
+add gabia-ip_v4 139.150.64.0/19
+add gabia-ip_v4 211.47.64.0/20
+create gabia-ip_v6 hash:net family inet6 hashsize 4096 maxelem 1048576 -exist
+flush gabia-ip_v6
+add gabia-ip_v6 2401:9ec0::/32

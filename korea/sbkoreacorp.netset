@@ -1,0 +1,14 @@
+# sbkoreacorp IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 1 merged subnets
+# IPv6: 1 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < sbkoreacorp.netset
+#
+create sbkoreacorp_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush sbkoreacorp_v4
+add sbkoreacorp_v4 103.124.100.0/22
+create sbkoreacorp_v6 hash:net family inet6 hashsize 4096 maxelem 1048576 -exist
+flush sbkoreacorp_v6
+add sbkoreacorp_v6 2400:fda6::/32

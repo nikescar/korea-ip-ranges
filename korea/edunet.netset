@@ -1,0 +1,11 @@
+# edunet IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 1 merged subnets
+# IPv6: 0 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < edunet.netset
+#
+create edunet_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush edunet_v4
+add edunet_v4 210.102.96.0/19

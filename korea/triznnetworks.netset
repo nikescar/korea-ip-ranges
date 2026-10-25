@@ -1,0 +1,19 @@
+# triznnetworks IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 9 merged subnets
+# IPv6: 0 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < triznnetworks.netset
+#
+create triznnetworks_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush triznnetworks_v4
+add triznnetworks_v4 61.250.128.0/17
+add triznnetworks_v4 180.189.176.0/20
+add triznnetworks_v4 211.41.160.0/19
+add triznnetworks_v4 211.47.132.0/22
+add triznnetworks_v4 211.47.136.0/21
+add triznnetworks_v4 211.47.144.0/20
+add triznnetworks_v4 211.235.224.0/19
+add triznnetworks_v4 211.255.0.0/18
+add triznnetworks_v4 223.165.128.0/17

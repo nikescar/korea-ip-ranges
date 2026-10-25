@@ -1,0 +1,28 @@
+# xpeed IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 15 merged subnets
+# IPv6: 1 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < xpeed.netset
+#
+create xpeed_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush xpeed_v4
+add xpeed_v4 49.160.0.0/12
+add xpeed_v4 58.77.0.0/16
+add xpeed_v4 58.78.0.0/15
+add xpeed_v4 58.148.0.0/16
+add xpeed_v4 103.68.152.0/22
+add xpeed_v4 112.144.0.0/12
+add xpeed_v4 115.136.0.0/13
+add xpeed_v4 116.32.0.0/12
+add xpeed_v4 119.64.0.0/13
+add xpeed_v4 122.32.0.0/12
+add xpeed_v4 124.48.0.0/12
+add xpeed_v4 125.176.0.0/12
+add xpeed_v4 180.224.0.0/13
+add xpeed_v4 182.208.0.0/12
+add xpeed_v4 182.224.0.0/13
+create xpeed_v6 hash:net family inet6 hashsize 4096 maxelem 1048576 -exist
+flush xpeed_v6
+add xpeed_v6 2406:5900::/32

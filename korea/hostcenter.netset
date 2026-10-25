@@ -1,0 +1,18 @@
+# hostcenter IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 5 merged subnets
+# IPv6: 1 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < hostcenter.netset
+#
+create hostcenter_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush hostcenter_v4
+add hostcenter_v4 27.255.64.0/19
+add hostcenter_v4 61.14.208.0/22
+add hostcenter_v4 61.97.240.0/20
+add hostcenter_v4 103.249.28.0/22
+add hostcenter_v4 180.150.224.0/21
+create hostcenter_v6 hash:net family inet6 hashsize 4096 maxelem 1048576 -exist
+flush hostcenter_v6
+add hostcenter_v6 2407:b00::/32

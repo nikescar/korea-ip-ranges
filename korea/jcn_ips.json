@@ -1,0 +1,38 @@
+[
+  {
+    "ip_address": "103.11.248.0/22",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "103.68.96.0/22",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "112.109.32.0/19",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "113.192.64.0/18",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "116.212.0.0/19",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "124.216.0.0/16",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "180.211.0.0/18",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "182.161.128.0/17",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "2402:1a00::/32",
+    "ip_type": "IPv6"
+  }
+]

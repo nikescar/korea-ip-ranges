@@ -1,0 +1,19 @@
+# indiclub IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 9 merged subnets
+# IPv6: 0 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < indiclub.netset
+#
+create indiclub_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush indiclub_v4
+add indiclub_v4 45.250.220.0/22
+add indiclub_v4 61.251.176.0/20
+add indiclub_v4 101.53.64.0/19
+add indiclub_v4 103.9.128.0/22
+add indiclub_v4 113.52.136.0/21
+add indiclub_v4 175.176.128.0/20
+add indiclub_v4 182.237.32.0/19
+add indiclub_v4 203.173.96.0/19
+add indiclub_v4 210.4.88.0/21

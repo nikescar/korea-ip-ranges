@@ -1,0 +1,42 @@
+#!/bin/bash
+# Korea IP Ranges - kdtidc
+# Updated: 2026-10-26
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# UFW deny rules for kdtidc
+
+ufw deny from 45.64.152.0/22
+ufw deny from 101.55.0.0/24
+ufw deny from 101.55.2.0/23
+ufw deny from 101.55.5.0/24
+ufw deny from 101.55.6.0/24
+ufw deny from 101.55.8.0/24
+ufw deny from 101.55.11.0/24
+ufw deny from 101.55.12.0/23
+ufw deny from 101.55.14.0/24
+ufw deny from 101.55.17.0/24
+ufw deny from 101.55.19.0/24
+ufw deny from 101.55.20.0/24
+ufw deny from 101.55.22.0/24
+ufw deny from 101.55.24.0/21
+ufw deny from 101.55.32.0/23
+ufw deny from 101.55.36.0/23
+ufw deny from 101.55.38.0/24
+ufw deny from 101.55.40.0/21
+ufw deny from 101.55.48.0/24
+ufw deny from 101.55.50.0/23
+ufw deny from 101.55.52.0/22
+ufw deny from 101.55.56.0/23
+ufw deny from 101.55.58.0/24
+ufw deny from 101.55.60.0/22
+ufw deny from 101.55.64.0/23
+ufw deny from 101.55.66.0/24
+ufw deny from 101.55.68.0/22
+ufw deny from 101.55.72.0/21
+ufw deny from 101.55.80.0/23
+ufw deny from 101.55.83.0/24
+ufw deny from 101.55.84.0/22
+ufw deny from 101.55.88.0/21
+ufw deny from 101.55.96.0/19
+ufw deny from 103.5.144.0/22
+ufw deny from 2405:3500::/32

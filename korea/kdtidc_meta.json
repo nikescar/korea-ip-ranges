@@ -1,0 +1,21 @@
+{
+  "provider": "kdtidc",
+  "country": "KR",
+  "generated_date": "2026-10-26",
+  "sources": [
+    "https://xn--3e0bx5euxnjje69i70af08bea817g.xn--3e0b707e/jsp/business/management/isCurrentIpv4.jsp",
+    "https://xn--3e0bx5euxnjje69i70af08bea817g.xn--3e0b707e/jsp/business/management/isCurrentIpv6.jsp"
+  ],
+  "ipv4": {
+    "cidrs": 34,
+    "merged_cidrs": 34
+  },
+  "ipv6": {
+    "cidrs": 1,
+    "merged_cidrs": 1
+  },
+  "total_entries": 35,
+  "content_sha256": "c79e94ac1e6ce13e8e51a1adbb25b836515d5656efc5d817bf0858b66f1f8648",
+  "license": "CC0-1.0",
+  "license_url": "https://github.com/nikescar/korea-ip-ranges/blob/main/LICENSE"
+}

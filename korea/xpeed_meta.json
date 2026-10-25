@@ -1,0 +1,21 @@
+{
+  "provider": "xpeed",
+  "country": "KR",
+  "generated_date": "2026-10-26",
+  "sources": [
+    "https://xn--3e0bx5euxnjje69i70af08bea817g.xn--3e0b707e/jsp/business/management/isCurrentIpv4.jsp",
+    "https://xn--3e0bx5euxnjje69i70af08bea817g.xn--3e0b707e/jsp/business/management/isCurrentIpv6.jsp"
+  ],
+  "ipv4": {
+    "cidrs": 15,
+    "merged_cidrs": 15
+  },
+  "ipv6": {
+    "cidrs": 1,
+    "merged_cidrs": 1
+  },
+  "total_entries": 16,
+  "content_sha256": "35ed960fac448bf817579226e3bdd0ec3745ddd2bae0fb732c4746027d090c8f",
+  "license": "CC0-1.0",
+  "license_url": "https://github.com/nikescar/korea-ip-ranges/blob/main/LICENSE"
+}

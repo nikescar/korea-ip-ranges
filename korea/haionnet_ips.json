@@ -1,0 +1,54 @@
+[
+  {
+    "ip_address": "43.228.160.0/22",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "49.254.0.0/16",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "103.4.180.0/22",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "115.144.0.0/16",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "121.126.0.0/16",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "124.198.0.0/17",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "125.7.128.0/18",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "183.78.128.0/19",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "202.86.8.0/21",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "202.126.112.0/21",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "202.133.16.0/20",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "203.109.0.0/19",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "2404:800::/32",
+    "ip_type": "IPv6"
+  }
+]

@@ -1,7 +1,7 @@
 # boranet IP ranges - ipset restore format (hash:net)
 # Generated: 2026-10-26
-# IPv4:       75 merged subnets
-# IPv6:        1 merged subnets
+# IPv4: 75 merged subnets
+# IPv6: 1 merged subnets
 # Source: Korea Network Information Center (KRNIC)
 # License: CC0-1.0
 # Load with: sudo ipset restore -! < boranet.netset

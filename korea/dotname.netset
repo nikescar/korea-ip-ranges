@@ -1,0 +1,15 @@
+# dotname IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 5 merged subnets
+# IPv6: 0 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < dotname.netset
+#
+create dotname_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush dotname_v4
+add dotname_v4 45.120.64.0/22
+add dotname_v4 103.31.180.0/22
+add dotname_v4 121.0.64.0/18
+add dotname_v4 203.210.16.0/20
+add dotname_v4 210.87.192.0/19

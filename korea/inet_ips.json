@@ -1,0 +1,10 @@
+[
+  {
+    "ip_address": "210.116.64.0/18",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "2001:f48::/32",
+    "ip_type": "IPv6"
+  }
+]

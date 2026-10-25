@@ -1,0 +1,22 @@
+# cmbkwangjunet IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 8 merged subnets
+# IPv6: 2 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < cmbkwangjunet.netset
+#
+create cmbkwangjunet_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush cmbkwangjunet_v4
+add cmbkwangjunet_v4 49.246.0.0/17
+add cmbkwangjunet_v4 103.10.92.0/22
+add cmbkwangjunet_v4 103.10.216.0/22
+add cmbkwangjunet_v4 112.121.192.0/18
+add cmbkwangjunet_v4 112.133.128.0/18
+add cmbkwangjunet_v4 120.29.128.0/20
+add cmbkwangjunet_v4 122.128.64.0/20
+add cmbkwangjunet_v4 150.242.144.0/22
+create cmbkwangjunet_v6 hash:net family inet6 hashsize 4096 maxelem 1048576 -exist
+flush cmbkwangjunet_v6
+add cmbkwangjunet_v6 2402:7000::/32
+add cmbkwangjunet_v6 2406:b000::/32

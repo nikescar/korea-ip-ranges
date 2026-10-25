@@ -1,0 +1,66 @@
+[
+  {
+    "ip_address": "49.160.0.0/12",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "58.77.0.0/16",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "58.78.0.0/15",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "58.148.0.0/16",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "103.68.152.0/22",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "112.144.0.0/12",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "115.136.0.0/13",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "116.32.0.0/12",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "119.64.0.0/13",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "122.32.0.0/12",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "124.48.0.0/12",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "125.176.0.0/12",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "180.224.0.0/13",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "182.208.0.0/12",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "182.224.0.0/13",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "2406:5900::/32",
+    "ip_type": "IPv6"
+  }
+]

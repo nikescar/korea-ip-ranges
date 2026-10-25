@@ -365,63 +365,9 @@ generate_metadata() {
 META_JSON
 }
 
-# Process each ISP
+# Process each ISP using Python script (faster and more reliable)
 log "Generating formats for ISPs..."
-
-while IFS= read -r isp; do
-    [[ -z "$isp" ]] && continue
-
-    isp_safe=$(normalize_isp_name "$isp")
-    log "Processing $isp ($isp_safe)..."
-
-    v4_merged="$TEMP_DIR/${isp_safe}_merged_v4.txt"
-    v6_merged="$TEMP_DIR/${isp_safe}_merged_v6.txt"
-    v4_unmerged="$TEMP_DIR/${isp_safe}_v4.txt"
-    v6_unmerged="$TEMP_DIR/${isp_safe}_v6.txt"
-
-    isp_dir="$OUTPUT_DIR/korea"
-    mkdir -p "$isp_dir"
-
-    # Combined merged
-    combined_merged="$isp_dir/${isp_safe}_ips_merged.txt"
-    generate_merged_combined "$isp_safe" "$v4_merged" "$v6_merged" "$combined_merged"
-
-    # Combined unmerged
-    combined_unmerged="$isp_dir/${isp_safe}_ips.txt"
-    generate_unmerged_combined "$isp_safe" "$v4_unmerged" "$v6_unmerged" "$combined_unmerged"
-
-    # Copy merged v4/v6
-    [[ -f "$v4_merged" ]] && cp "$v4_merged" "$isp_dir/${isp_safe}_ips_merged_v4.txt"
-    [[ -f "$v6_merged" ]] && cp "$v6_merged" "$isp_dir/${isp_safe}_ips_merged_v6.txt"
-
-    # SQL
-    generate_sql "$isp_safe" "$combined_merged" "$isp_dir/${isp_safe}_ips.sql"
-
-    # JSON
-    generate_json "$combined_merged" "$isp_dir/${isp_safe}_ips.json"
-
-    # CSV
-    generate_csv "$combined_merged" "$isp_dir/${isp_safe}_ips.csv"
-
-    # Netset
-    generate_netset "$isp_safe" "$v4_merged" "$v6_merged" "$isp_dir/${isp_safe}.netset"
-
-    # Nftables
-    generate_nftables_allow "$isp_safe" "$combined_merged" "$isp_dir/nftables_${isp_safe}_allow.conf"
-    generate_nftables_deny "$isp_safe" "$combined_merged" "$isp_dir/nftables_${isp_safe}_deny.conf"
-
-    # Nginx
-    generate_nginx_allow "$isp_safe" "$combined_merged" "$isp_dir/nginx_${isp_safe}_allow.conf"
-    generate_nginx_deny "$isp_safe" "$combined_merged" "$isp_dir/nginx_${isp_safe}_deny.conf"
-
-    # UFW
-    generate_ufw_allow "$isp_safe" "$combined_merged" "$isp_dir/ufw_${isp_safe}_allow.sh"
-    generate_ufw_deny "$isp_safe" "$combined_merged" "$isp_dir/ufw_${isp_safe}_deny.sh"
-
-    # Metadata
-    generate_metadata "$isp_safe" "$v4_unmerged" "$v6_unmerged" "$v4_merged" "$v6_merged" "$combined_merged" "$isp_dir/${isp_safe}_meta.json"
-
-done < "$TEMP_DIR/isp-list.txt"
+python3 "$SCRIPT_DIR/generate-isp-formats.py"
 
 # Process consolidated Korea files
 log "Generating consolidated Korea formats..."

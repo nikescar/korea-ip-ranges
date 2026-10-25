@@ -1,0 +1,17 @@
+# lgtelecom IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 4 merged subnets
+# IPv6: 1 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < lgtelecom.netset
+#
+create lgtelecom_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush lgtelecom_v4
+add lgtelecom_v4 106.96.0.0/13
+add lgtelecom_v4 180.210.192.0/21
+add lgtelecom_v4 203.82.240.0/21
+add lgtelecom_v4 223.168.0.0/13
+create lgtelecom_v6 hash:net family inet6 hashsize 4096 maxelem 1048576 -exist
+flush lgtelecom_v6
+add lgtelecom_v6 2001:4430::/32

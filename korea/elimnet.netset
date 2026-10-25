@@ -1,0 +1,25 @@
+# elimnet IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 15 merged subnets
+# IPv6: 0 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < elimnet.netset
+#
+create elimnet_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush elimnet_v4
+add elimnet_v4 49.239.128.0/18
+add elimnet_v4 61.106.32.0/19
+add elimnet_v4 203.239.128.0/18
+add elimnet_v4 210.102.0.0/19
+add elimnet_v4 210.112.224.0/19
+add elimnet_v4 210.118.0.0/19
+add elimnet_v4 210.180.32.0/19
+add elimnet_v4 210.181.224.0/19
+add elimnet_v4 210.219.192.0/18
+add elimnet_v4 210.220.192.0/18
+add elimnet_v4 211.36.0.0/18
+add elimnet_v4 211.52.64.0/18
+add elimnet_v4 211.112.0.0/18
+add elimnet_v4 211.174.128.0/17
+add elimnet_v4 211.240.0.0/17

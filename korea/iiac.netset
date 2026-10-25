@@ -1,0 +1,14 @@
+# iiac IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 1 merged subnets
+# IPv6: 1 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < iiac.netset
+#
+create iiac_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush iiac_v4
+add iiac_v4 116.84.0.0/16
+create iiac_v6 hash:net family inet6 hashsize 4096 maxelem 1048576 -exist
+flush iiac_v6
+add iiac_v6 2400:a0a0::/32

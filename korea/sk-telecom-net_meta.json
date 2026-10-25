@@ -1,0 +1,21 @@
+{
+  "provider": "sk-telecom-net",
+  "country": "KR",
+  "generated_date": "2026-10-26",
+  "sources": [
+    "https://xn--3e0bx5euxnjje69i70af08bea817g.xn--3e0b707e/jsp/business/management/isCurrentIpv4.jsp",
+    "https://xn--3e0bx5euxnjje69i70af08bea817g.xn--3e0b707e/jsp/business/management/isCurrentIpv6.jsp"
+  ],
+  "ipv4": {
+    "cidrs": 38,
+    "merged_cidrs": 35
+  },
+  "ipv6": {
+    "cidrs": 2,
+    "merged_cidrs": 2
+  },
+  "total_entries": 40,
+  "content_sha256": "7485a70a8f14ba3d55e8ce89837362af7c179af374f6740cf572a75f9363c63c",
+  "license": "CC0-1.0",
+  "license_url": "https://github.com/nikescar/korea-ip-ranges/blob/main/LICENSE"
+}

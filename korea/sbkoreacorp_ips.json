@@ -1,0 +1,10 @@
+[
+  {
+    "ip_address": "103.124.100.0/22",
+    "ip_type": "IPv4"
+  },
+  {
+    "ip_address": "2400:fda6::/32",
+    "ip_type": "IPv6"
+  }
+]

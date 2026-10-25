@@ -1,0 +1,28 @@
+# netip IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 15 merged subnets
+# IPv6: 1 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < netip.netset
+#
+create netip_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush netip_v4
+add netip_v4 45.249.64.0/22
+add netip_v4 49.143.192.0/20
+add netip_v4 103.4.176.0/22
+add netip_v4 118.67.160.0/19
+add netip_v4 175.45.224.0/20
+add netip_v4 211.39.192.0/19
+add netip_v4 211.56.8.0/21
+add netip_v4 211.174.96.0/19
+add netip_v4 211.188.0.0/20
+add netip_v4 211.188.104.0/21
+add netip_v4 211.188.112.0/20
+add netip_v4 211.233.128.0/20
+add netip_v4 211.255.128.0/21
+add netip_v4 211.255.144.0/20
+add netip_v4 223.255.192.0/21
+create netip_v6 hash:net family inet6 hashsize 4096 maxelem 1048576 -exist
+flush netip_v6
+add netip_v6 2405:5f00::/32

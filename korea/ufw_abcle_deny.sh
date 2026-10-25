@@ -3,7 +3,6 @@
 # Updated: 2026-10-26
 # Source: Korea Network Information Center (KRNIC)
 # License: CC0-1.0
-# This file is generated automatically. Do not edit it directly.
 # UFW deny rules for abcle
 
 ufw deny from 101.79.0.0/22

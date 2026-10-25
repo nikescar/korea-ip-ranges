@@ -1,0 +1,49 @@
+# sk-telecom-net IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 35 merged subnets
+# IPv6: 2 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < sk-telecom-net.netset
+#
+create sk-telecom-net_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush sk-telecom-net_v4
+add sk-telecom-net_v4 27.160.0.0/12
+add sk-telecom-net_v4 27.176.0.0/13
+add sk-telecom-net_v4 42.16.0.0/12
+add sk-telecom-net_v4 42.32.0.0/12
+add sk-telecom-net_v4 58.102.0.0/15
+add sk-telecom-net_v4 61.104.0.0/16
+add sk-telecom-net_v4 61.250.0.0/18
+add sk-telecom-net_v4 61.254.128.0/19
+add sk-telecom-net_v4 111.218.0.0/15
+add sk-telecom-net_v4 113.216.0.0/15
+add sk-telecom-net_v4 114.52.0.0/15
+add sk-telecom-net_v4 123.228.0.0/15
+add sk-telecom-net_v4 124.0.0.0/15
+add sk-telecom-net_v4 180.132.0.0/14
+add sk-telecom-net_v4 203.226.192.0/19
+add sk-telecom-net_v4 203.226.224.0/20
+add sk-telecom-net_v4 203.226.240.0/21
+add sk-telecom-net_v4 203.226.248.0/22
+add sk-telecom-net_v4 203.226.252.0/24
+add sk-telecom-net_v4 203.236.0.0/19
+add sk-telecom-net_v4 203.236.32.0/21
+add sk-telecom-net_v4 203.236.40.0/22
+add sk-telecom-net_v4 211.111.176.0/20
+add sk-telecom-net_v4 211.115.0.0/19
+add sk-telecom-net_v4 211.188.128.0/17
+add sk-telecom-net_v4 211.234.128.0/18
+add sk-telecom-net_v4 211.234.192.0/19
+add sk-telecom-net_v4 211.234.224.0/20
+add sk-telecom-net_v4 211.234.244.0/22
+add sk-telecom-net_v4 211.234.248.0/21
+add sk-telecom-net_v4 211.235.64.0/18
+add sk-telecom-net_v4 211.235.128.0/18
+add sk-telecom-net_v4 211.240.128.0/17
+add sk-telecom-net_v4 220.103.0.0/16
+add sk-telecom-net_v4 223.32.0.0/11
+create sk-telecom-net_v6 hash:net family inet6 hashsize 4096 maxelem 1048576 -exist
+flush sk-telecom-net_v6
+add sk-telecom-net_v6 2001:2d8::/32
+add sk-telecom-net_v6 2001:f28::/32

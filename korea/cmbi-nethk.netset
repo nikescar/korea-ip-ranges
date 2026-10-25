@@ -1,0 +1,18 @@
+# cmbi-nethk IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 5 merged subnets
+# IPv6: 1 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < cmbi-nethk.netset
+#
+create cmbi-nethk_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush cmbi-nethk_v4
+add cmbi-nethk_v4 103.66.188.0/22
+add cmbi-nethk_v4 103.246.172.0/22
+add cmbi-nethk_v4 116.255.64.0/18
+add cmbi-nethk_v4 124.195.224.0/19
+add cmbi-nethk_v4 180.233.192.0/18
+create cmbi-nethk_v6 hash:net family inet6 hashsize 4096 maxelem 1048576 -exist
+flush cmbi-nethk_v6
+add cmbi-nethk_v6 2404:2300::/32

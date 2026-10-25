@@ -1,0 +1,65 @@
+#!/bin/bash
+# Korea IP Ranges - hcn
+# Updated: 2026-10-26
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# UFW allow rules for hcn
+
+ufw allow from 27.35.0.0/16
+ufw allow from 49.1.216.0/22
+ufw allow from 49.1.224.0/22
+ufw allow from 49.142.0.0/16
+ufw allow from 49.143.0.0/17
+ufw allow from 58.140.88.0/22
+ufw allow from 58.140.96.0/22
+ufw allow from 58.140.218.0/23
+ufw allow from 58.141.84.0/22
+ufw allow from 58.141.88.0/21
+ufw allow from 58.141.112.0/20
+ufw allow from 58.141.128.0/22
+ufw allow from 58.141.132.0/23
+ufw allow from 58.141.232.0/22
+ufw allow from 58.141.244.0/22
+ufw allow from 58.142.124.0/22
+ufw allow from 59.151.192.0/18
+ufw allow from 60.253.0.0/18
+ufw allow from 101.235.196.0/22
+ufw allow from 101.235.208.0/22
+ufw allow from 103.2.84.0/22
+ufw allow from 110.35.128.0/17
+ufw allow from 111.118.0.0/17
+ufw allow from 112.72.128.0/17
+ufw allow from 112.214.16.0/22
+ufw allow from 112.214.30.0/23
+ufw allow from 112.214.104.0/22
+ufw allow from 113.59.128.0/18
+ufw allow from 114.30.48.0/20
+ufw allow from 114.129.192.0/18
+ufw allow from 114.199.128.0/17
+ufw allow from 115.69.96.0/19
+ufw allow from 117.20.192.0/18
+ufw allow from 118.91.0.0/18
+ufw allow from 118.176.160.0/23
+ufw allow from 119.56.128.0/17
+ufw allow from 120.50.64.0/18
+ufw allow from 120.142.22.0/23
+ufw allow from 120.142.52.0/22
+ufw allow from 120.142.188.0/22
+ufw allow from 120.142.248.0/23
+ufw allow from 120.142.252.0/23
+ufw allow from 122.199.64.0/18
+ufw allow from 122.202.32.0/19
+ufw allow from 123.108.160.0/19
+ufw allow from 182.172.20.0/22
+ufw allow from 182.172.124.0/22
+ufw allow from 182.172.216.0/22
+ufw allow from 182.172.224.0/22
+ufw allow from 202.148.48.0/22
+ufw allow from 202.150.176.0/20
+ufw allow from 203.170.96.0/19
+ufw allow from 210.57.224.0/19
+ufw allow from 211.41.192.0/20
+ufw allow from 211.47.80.0/20
+ufw allow from 211.47.96.0/19
+ufw allow from 211.237.240.0/20
+ufw allow from 2001:ea0::/32

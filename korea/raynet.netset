@@ -1,0 +1,24 @@
+# raynet IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 14 merged subnets
+# IPv6: 0 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < raynet.netset
+#
+create raynet_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush raynet_v4
+add raynet_v4 122.129.240.0/20
+add raynet_v4 211.111.160.0/24
+add raynet_v4 211.111.165.0/24
+add raynet_v4 211.111.172.0/23
+add raynet_v4 211.238.34.0/24
+add raynet_v4 211.238.38.0/23
+add raynet_v4 211.238.40.0/24
+add raynet_v4 211.238.42.0/24
+add raynet_v4 211.238.47.0/24
+add raynet_v4 211.238.176.0/23
+add raynet_v4 211.238.179.0/24
+add raynet_v4 211.238.192.0/24
+add raynet_v4 211.238.197.0/24
+add raynet_v4 211.238.199.0/24

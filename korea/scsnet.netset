@@ -1,0 +1,17 @@
+# scsnet IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 7 merged subnets
+# IPv6: 0 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < scsnet.netset
+#
+create scsnet_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush scsnet_v4
+add scsnet_v4 58.65.64.0/18
+add scsnet_v4 103.117.0.0/22
+add scsnet_v4 115.160.0.0/17
+add scsnet_v4 121.1.64.0/18
+add scsnet_v4 124.153.128.0/17
+add scsnet_v4 182.31.0.0/16
+add scsnet_v4 211.246.128.0/17

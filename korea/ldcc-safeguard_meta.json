@@ -1,0 +1,21 @@
+{
+  "provider": "ldcc-safeguard",
+  "country": "KR",
+  "generated_date": "2026-10-26",
+  "sources": [
+    "https://xn--3e0bx5euxnjje69i70af08bea817g.xn--3e0b707e/jsp/business/management/isCurrentIpv4.jsp",
+    "https://xn--3e0bx5euxnjje69i70af08bea817g.xn--3e0b707e/jsp/business/management/isCurrentIpv6.jsp"
+  ],
+  "ipv4": {
+    "cidrs": 6,
+    "merged_cidrs": 6
+  },
+  "ipv6": {
+    "cidrs": 0,
+    "merged_cidrs": 0
+  },
+  "total_entries": 6,
+  "content_sha256": "1d8eeb4088d7d706ebb1be630e39b598c53532ce9ff0dbaa74a4b02c79a32f9a",
+  "license": "CC0-1.0",
+  "license_url": "https://github.com/nikescar/korea-ip-ranges/blob/main/LICENSE"
+}

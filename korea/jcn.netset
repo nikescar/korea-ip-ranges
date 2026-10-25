@@ -1,0 +1,21 @@
+# jcn IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 8 merged subnets
+# IPv6: 1 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < jcn.netset
+#
+create jcn_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush jcn_v4
+add jcn_v4 103.11.248.0/22
+add jcn_v4 103.68.96.0/22
+add jcn_v4 112.109.32.0/19
+add jcn_v4 113.192.64.0/18
+add jcn_v4 116.212.0.0/19
+add jcn_v4 124.216.0.0/16
+add jcn_v4 180.211.0.0/18
+add jcn_v4 182.161.128.0/17
+create jcn_v6 hash:net family inet6 hashsize 4096 maxelem 1048576 -exist
+flush jcn_v6
+add jcn_v6 2402:1a00::/32

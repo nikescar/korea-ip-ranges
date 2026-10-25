@@ -1,0 +1,23 @@
+# ktnet IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 10 merged subnets
+# IPv6: 1 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < ktnet.netset
+#
+create ktnet_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush ktnet_v4
+add ktnet_v4 120.143.192.0/18
+add ktnet_v4 203.233.192.0/19
+add ktnet_v4 203.233.224.0/20
+add ktnet_v4 203.242.128.0/17
+add ktnet_v4 210.102.64.0/19
+add ktnet_v4 210.111.192.0/19
+add ktnet_v4 210.181.192.0/19
+add ktnet_v4 210.205.64.0/19
+add ktnet_v4 210.217.128.0/19
+add ktnet_v4 211.37.192.0/19
+create ktnet_v6 hash:net family inet6 hashsize 4096 maxelem 1048576 -exist
+flush ktnet_v6
+add ktnet_v6 2001:eb8::/32

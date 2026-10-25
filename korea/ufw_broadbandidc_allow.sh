@@ -3,7 +3,6 @@
 # Updated: 2026-10-26
 # Source: Korea Network Information Center (KRNIC)
 # License: CC0-1.0
-# This file is generated automatically. Do not edit it directly.
 # UFW allow rules for broadbandidc
 
 ufw allow from 49.50.16.0/20

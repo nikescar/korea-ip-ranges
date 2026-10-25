@@ -1,0 +1,21 @@
+{
+  "provider": "hostway",
+  "country": "KR",
+  "generated_date": "2026-10-26",
+  "sources": [
+    "https://xn--3e0bx5euxnjje69i70af08bea817g.xn--3e0b707e/jsp/business/management/isCurrentIpv4.jsp",
+    "https://xn--3e0bx5euxnjje69i70af08bea817g.xn--3e0b707e/jsp/business/management/isCurrentIpv6.jsp"
+  ],
+  "ipv4": {
+    "cidrs": 2,
+    "merged_cidrs": 2
+  },
+  "ipv6": {
+    "cidrs": 1,
+    "merged_cidrs": 1
+  },
+  "total_entries": 3,
+  "content_sha256": "67ed1f36b9f6042e98d13b03f22bfb2ce138ac3fa44e756b5c2c9be9694e9f58",
+  "license": "CC0-1.0",
+  "license_url": "https://github.com/nikescar/korea-ip-ranges/blob/main/LICENSE"
+}

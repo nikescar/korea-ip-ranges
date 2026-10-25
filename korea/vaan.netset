@@ -1,0 +1,22 @@
+# vaan IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 9 merged subnets
+# IPv6: 1 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < vaan.netset
+#
+create vaan_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush vaan_v4
+add vaan_v4 58.181.0.0/18
+add vaan_v4 112.136.128.0/17
+add vaan_v4 122.199.128.0/17
+add vaan_v4 211.45.96.0/19
+add vaan_v4 211.47.224.0/20
+add vaan_v4 211.56.224.0/19
+add vaan_v4 211.232.0.0/17
+add vaan_v4 211.232.128.0/18
+add vaan_v4 221.132.64.0/19
+create vaan_v6 hash:net family inet6 hashsize 4096 maxelem 1048576 -exist
+flush vaan_v6
+add vaan_v6 2402:5800::/32

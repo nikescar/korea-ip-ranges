@@ -1,0 +1,14 @@
+# gdsys IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 4 merged subnets
+# IPv6: 0 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < gdsys.netset
+#
+create gdsys_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush gdsys_v4
+add gdsys_v4 103.240.48.0/22
+add gdsys_v4 180.131.0.0/18
+add gdsys_v4 183.86.192.0/18
+add gdsys_v4 202.90.252.0/22

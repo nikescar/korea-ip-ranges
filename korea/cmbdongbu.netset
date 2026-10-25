@@ -1,0 +1,18 @@
+# cmbdongbu IP ranges - ipset restore format (hash:net)
+# Generated: 2026-10-26
+# IPv4: 8 merged subnets
+# IPv6: 0 merged subnets
+# Source: Korea Network Information Center (KRNIC)
+# License: CC0-1.0
+# Load with: sudo ipset restore -! < cmbdongbu.netset
+#
+create cmbdongbu_v4 hash:net family inet hashsize 4096 maxelem 1048576 -exist
+flush cmbdongbu_v4
+add cmbdongbu_v4 43.241.108.0/22
+add cmbdongbu_v4 49.143.180.0/22
+add cmbdongbu_v4 49.143.184.0/23
+add cmbdongbu_v4 49.143.186.0/24
+add cmbdongbu_v4 103.28.60.0/22
+add cmbdongbu_v4 119.235.240.0/21
+add cmbdongbu_v4 125.62.216.0/21
+add cmbdongbu_v4 203.166.208.0/21
