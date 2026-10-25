@@ -2,6 +2,8 @@
 
 Automatically updated Korean IP address ranges from KRNIC (Korea Network Information Center), available in multiple formats for firewall configurations, IP filtering, and network analysis.
 
+> **Inspired by** [cloud-provider-ip-addresses](https://github.com/rezmoss/cloud-provider-ip-addresses) - This project adopts similar format patterns and automation approaches for Korean IP ranges.
+
 ## Data Source
 
 - **IPv4**: https://xn--3e0bx5euxnjje69i70af08bea817g.xn--3e0b707e/jsp/business/management/isCurrentIpv4.jsp
@@ -227,10 +229,14 @@ CC0-1.0 (Public Domain)
 
 The data is sourced from KRNIC (Korea Network Information Center), a public registry. This repository aggregates and reformats the data for convenience.
 
+## Acknowledgments
+
+This project is inspired by [rezmoss/cloud-provider-ip-addresses](https://github.com/rezmoss/cloud-provider-ip-addresses), which provides IP ranges for major cloud providers in multiple formats. We adopted similar output formats and automation patterns for Korean IP ranges.
+
 ## Related Projects
 
-- [cloud-provider-ip-addresses](https://github.com/rezmoss/cloud-provider-ip-addresses) - Similar project for cloud providers
-- [html-table-csv-converter](https://github.com/nikescar/html-table-csv-converter) - Tool used to fetch data
+- [cloud-provider-ip-addresses](https://github.com/rezmoss/cloud-provider-ip-addresses) - IP ranges for AWS, Azure, Google Cloud, etc. (inspiration for this project)
+- [html-table-csv-converter](https://github.com/nikescar/html-table-csv-converter) - Tool used to fetch data from KRNIC
 
 ## Contributing
 

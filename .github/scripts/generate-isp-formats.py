@@ -218,7 +218,8 @@ table inet filter_{isp_safe}_deny {{
         "total_entries": len(all_unmerged),
         "content_sha256": sha256,
         "license": "CC0-1.0",
-        "license_url": "https://github.com/nikescar/korea-ip-ranges/blob/main/LICENSE"
+        "license_url": "https://github.com/nikescar/korea-ip-ranges/blob/main/LICENSE",
+        "inspiration": "https://github.com/rezmoss/cloud-provider-ip-addresses"
     }
 
     with open(f"{output_dir}/{isp_safe}_meta.json", 'w') as f:
